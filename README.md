@@ -3,7 +3,9 @@
 This program uses if-else statements along with mathematical operators to perform different operation such as square, cube, cube root and square root based in the users choice.
 <br>
 import math
+<br>
 n=int(input("enter any no:"))
+<br>
 if 0<=n<=9:
     print("squar of no is:",math.pow(n,2))
 elif 10<=n<=99:
